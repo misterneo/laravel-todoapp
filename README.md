@@ -1,5 +1,7 @@
 # A Simple Todo App Using Laravel
 
+## Usage
+
 To run this Laravel project, you will need to have PHP, Composer, and a web server installed on your machine.
 
 First, clone the repository on your local machine by running:
@@ -32,3 +34,7 @@ php artisan serve
 ```
 
 This will start the development server at http://localhost:8000. You can now access the Laravel application in your browser.
+
+## License
+
+The MIT License (MIT).
