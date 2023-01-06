@@ -16,7 +16,7 @@
         <form class="inputForm" action="{{ route('saveItem') }}" method="post" accept-charset="UTF-8">
             {{ csrf_field() }}
 
-            <input type="text" name="todoItem" id="todo" placeholder="Enter a new Todo Item">
+            <input type="text" name="todoItem" id="todo" placeholder="Enter a new Todo Item" required>
             <button type="submit">Add</button>
         </form>
 
